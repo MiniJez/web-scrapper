@@ -1,5 +1,6 @@
 # WebScrapperSite
 
+A simple web scrapper to help people to get content of html page.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
 ## Development server
