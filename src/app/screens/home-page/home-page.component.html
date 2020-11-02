@@ -1,0 +1,28 @@
+<div class="h-100">
+    <div class="d-flex flex-wrap h-100" id="rowContainer">
+        <div class="flex-wrap w-30px min-w-95"></div>
+        <div class="flex-1 flex-wrap ma-ri-1 ma-le-1 min-w-300">
+            <div id="titleContainer" class="row">
+                <mat-icon class="colorWhite" id="iconTitle" aria-hidden="false" aria-label="Example home icon">language
+                </mat-icon>
+                <h1 class="colorWhite h1" id="title">scrape the web!</h1>
+            </div>
+            <div id="inputContainer">
+                <div class="ma-bot-2">
+                    <div class="form-group" id="formUrlGroup">
+                        <label class="colorWhite h4" for="urlInput">Enter page url to scrape</label>
+                        <input type="url" class="form-control" id="urlInput" [formControl]="url" value="{{url}}">
+                    </div>
+                </div>
+                <div class="">
+                    <button type="button" [disabled]="btnDisable" class="btn btn-primary h4" (click)="launchScrape()">Scrape!</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex-wrap w-30px min-w-95"></div>
+        <div class="flex-1 flex-wrap min-w-300" id="textareaContainer">
+            <div id="previewContainer" #codeDiv>HTML code will render here</div>
+        </div>
+        <div class="flex-wrap w-30px min-w-95"></div>
+    </div>
+</div>

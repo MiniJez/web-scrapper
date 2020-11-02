@@ -1,0 +1,59 @@
+#rowContainer {
+    justify-content: center;
+    align-items: center;
+}
+
+#titleContainer {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+#title {
+    margin: 0;
+    text-align: center;
+}
+
+#iconTitle {
+    width: 80px;
+    height: 80px;
+    font-size: 80px;
+    margin: 20px 20px 20px 20px;
+}
+
+#formUrlContainer, #formUrlGroup {
+    width: 100%;
+}
+
+#previewContainer {
+    background-color: black;
+    width: 100%;
+    height: 430px;
+    border-radius: 10px;
+    overflow: scroll;
+    padding: 20px;
+    color: white;
+}
+
+#inputContainer {
+    width: 80%;
+    margin: auto;
+}
+
+#textareaContainer {
+    margin: 20px 20px 20px 20px;
+    width: 0%;
+}
+
+.min-w-300 {
+    min-width: 300px;
+}
+
+.min-w-95 {
+    min-width: 95px;
+}
+
+.w-30px {
+    width: 30px;
+}
